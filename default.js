@@ -1,6 +1,6 @@
 var loopText = [
     // '',
-    'Chúc mừng sinh nhật ba yêu dấu!',
+    'Chúc mừng sinh nhật ba của Mi Mi!',
     'Hai mẹ con chúc ba luôn luôn vui khỏe,',
     'công việc thuận lợi, mọi sự bình an.',
     'Chúc gia đình mình mãi êm ấm, hạnh phúc.',
