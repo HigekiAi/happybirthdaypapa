@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
   
   body {
-    background-color: #68b0ab;
+    background-color: #b3cee5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
   
   .birthday-gift {
     position: relative;
-    top: 150px;
+    top: 140px;
   }
   
   .birthday-gift:before {
@@ -32,7 +32,7 @@
     position: relative;
     width: 250px;
     height: 200px;
-    background-color: #e9c46a;
+    background-color: #658ab3;
   }
   
   .gift:before {
@@ -40,7 +40,7 @@
     position: absolute;
     width: 50px;
     height: 200px;
-    background-color: #e76f51;
+    background-color: #f3de67;
     left:102px;
   }
   
@@ -54,7 +54,7 @@
   
   .click {
     position: absolute;
-    background-color: #e9c46a;
+    background-color: #658ab3;
     width: 270px;
     height: 50px;
     top:-50px;
@@ -69,7 +69,7 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    background-color: #e76f51;
+    background-color: #f3de67;
     left:109px;
   }
   
@@ -78,8 +78,8 @@
     position: absolute;
     width: 5px;
     height: 0;
-    border-bottom: 50px solid #e76f51;
-    border-top: 50px solid #e76f51;
+    border-bottom: 50px solid #f3de67;
+    border-top: 50px solid #f3de67;
     border-left: 0px solid transparent;
     border-right: 50px solid transparent;
     transform: rotate(-90deg);
@@ -94,16 +94,16 @@
   .wishes {
     position: absolute;
     transition: .5s;
-    color: rgb(63, 62, 62);
-    font-size: 33px;
+    color: rgb(39, 38, 38);
+    font-size: 37px;
     text-align: center;
     z-index:-1;
     left:5px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Pangolin', cursive;
   }
   
   #click:checked ~ .wishes {
-    transform: translateY(-125px);
+    transform: translateY(-140px);
   }
 
   #click:checked ~ .sparkles {

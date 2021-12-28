@@ -1,5 +1,4 @@
 var loopText = [
-    // '',
     'Chúc mừng sinh nhật ba của Mi Mi!',
     'Hai mẹ con chúc ba luôn luôn vui khỏe,',
     'công việc thuận lợi, mọi sự bình an.',
@@ -11,12 +10,7 @@ var loopText = [
   var $text = $('#swap-text');
   var css = {};
   
-  // Immediately Invoked Named Function Expression - we define it then
-  // immediately call it by the parenthesis after the closing bracket,
-  // function (){}(). Once it has done it's work we call it again with
-  // `setTimeout()` as long as our counter `i` is not equal to the 
-  // number of entries in the `loopText` array.
-  (function changeText() {
+  function changeText() {
   
     if (i < max) {
       $text
@@ -29,6 +23,6 @@ var loopText = [
   
     }
   
-  }());
+  };
 
   document.getElementById("click").onclick = changeText;
